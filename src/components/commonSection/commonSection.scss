@@ -1,0 +1,92 @@
+@import '../../styles/mixins/global.scss';
+
+.common-section-content-all-alignment {
+    padding: 48px 0;
+
+    @include breakpoint("max-sm") {
+        padding: 26px 0 46px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+
+        @include breakpoint("max-md") {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        @include breakpoint("max-md") {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px 0;
+        }
+
+        .grid-items:last-child {
+            padding-right: 0px;
+            border: none;
+        }
+
+        .grid-items:nth-child(2) {
+            @include breakpoint("max-sm") {
+                border: none;
+            }
+        }
+
+        .grid-items {
+            border-right: 1px solid #212823;
+            padding: 20px 30px;
+
+            @include breakpoint("max-sm") {
+                padding: 0 6px;
+            }
+
+            .sub-grid {
+                display: grid;
+                grid-template-columns: 70px 1fr;
+                gap: 20px;
+
+                @include breakpoint("max-sm") {
+                    grid-template-columns: 30px 1fr;
+                }
+
+                .sub-grid-items {
+                    p {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin: 0 0 20px 0;
+                        font-family: 'Inter', sans-serif;
+                        color: #000000;
+
+                        @include breakpoint("max-sm") {
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            margin: 0 0 4px 0;
+
+                        }
+                    }
+
+                    span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        display: block;
+                        line-height: 19px;
+                        font-family: 'Inter', sans-serif;
+                        color: #000000;
+
+                        @include breakpoint("max-sm") {
+                            font-weight: 400;
+                            font-size: 10px;
+                            line-height: 12px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}
