@@ -29,7 +29,7 @@ export default function Footer() {
             <button>
               Gratis Beratung
               <br />
-              anfordern
+              <span className="an-align">anfordern</span>
             </button>
           </div>
         </div>

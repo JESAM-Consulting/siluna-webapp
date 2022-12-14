@@ -13,7 +13,7 @@ export default function Header() {
         <div className="container-lg">
           <div className="mobile-first-text-show">
             <p>
-              Ihr Vermöge <span>braucht</span> Sicherheit.
+              Ihr Vermögen <span>braucht</span> Sicherheit.
             </p>
           </div>
           <div className="header-alignment">

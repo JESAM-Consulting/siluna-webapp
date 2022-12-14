@@ -475,3 +475,9 @@
         }
     }
 }
+
+.an-align {
+    @include breakpoint("max-sm") {
+        padding-left: 5px;
+    }
+}
