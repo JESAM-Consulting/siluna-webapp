@@ -105,7 +105,7 @@ export default function TextSection() {
           </div>
           <div className="button-center-alignment">
             {/* onClick={() => setModalOpen(!modalOpen)} */}
-            <button>
+            <button onClick={() => setModalOpen(!modalOpen)}>
               Jetzt kostenfreie <br />
               <span className="new-buton-style-span new-buton-style-span-sec">Beratung anfordern</span>
             </button>

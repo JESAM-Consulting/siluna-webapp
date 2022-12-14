@@ -25,7 +25,7 @@ export default function Header() {
             </div>
             {/* onClick={() => setModalOpen(!modalOpen)} */}
             <div className="button">
-              <button>Jetzt kostenfreie Beratung anfordern</button>
+              <button onClick={() => setModalOpen(!modalOpen)}>Jetzt kostenfreie Beratung anfordern</button>
             </div>
           </div>
         </div>

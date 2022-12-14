@@ -1,5 +1,5 @@
 import "./ContactModal.scss";
-import ModalLogo from "../../assets/logo/modal-logo.svg";
+import ModalLogo from "../../assets/images/modal-logo.svg";
 import CloeIcon from "../../assets/icons/ei_close.svg";
 import React, { useEffect, useState, useCallback } from "react";
 import { toast, ToastContainer } from "react-toastify";
@@ -108,19 +108,14 @@ export default function ContactModal(props) {
             </div>
             <div className="modal-body">
               <div className="text-style">
-                <p>Jetzt bewerben</p>
-                <h6 style={{ margin: "0" }} className="m-new-s">
-                  Wir, die FE Finance GmbH legt großen Wert auf Effizienz und
-                  kurze Wege.
-                </h6>
+                <p>Jetzt Kontakt aufnehmen</p>
+                <h4 className="">
+                Sie haben es fast geschafft
+                </h4>
                 <h6 className="m-new-s">
                   {" "}
-                  Um den Bewerbungsprozess für dich so angenehm wie möglich zu
-                  gestalten haben wir auf ein langes Bewerbungsformular
-                  verzichtet. Wir freuen uns auf deine Bewerbung und melden uns
-                  binnen 48h bei dir.
+                  So können wir Sie erreichen
                 </h6>
-                <h3>So können wir dich erreichen</h3>
                 <div class="floating-form">
                   <div class="floating-label">
                     <input class="floating-input" type="text" placeholder=" "
@@ -201,7 +196,9 @@ export default function ContactModal(props) {
                   </div>
                 </div>
                 <div className="ab-button">
-                  <button onClick={(e) => submitContact(e)}>Absenden</button>
+                  <button
+                  //  onClick={(e) => submitContact(e)}
+                   >Absenden</button>
                 </div>
                 {/* <form>
                   <div className="input">
@@ -295,8 +292,7 @@ export default function ContactModal(props) {
                     <label for="new-check1"></label>
                   </div>
                   <h5 style={{ margin: "0" }}>
-                    Hiermit akzeptiere ich die <br /> Datenschutzbestimmungen
-                    der FE Finance GmbH
+                  Hiermit akzeptiere ich die Datenschutzbestimmungen der Siluna GmbH
                   </h5>
                 </div>
                 {terms === false && (

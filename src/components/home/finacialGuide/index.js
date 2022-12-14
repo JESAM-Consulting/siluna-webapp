@@ -31,7 +31,7 @@ export default function FinacialGuide() {
             </div>
             <div className="grid-items">
               {/* onClick={() => setModalOpen(!modalOpen)} */}
-              <button>
+              <button onClick={() => setModalOpen(!modalOpen)}>
                 Jetzt kostenfreie <br />
                 <span className="new-buton-style-span new-buton-style-span-mobile"> Beratung anfordern</span>
               </button>

@@ -33,7 +33,9 @@ export default function WirSection() {
                     setModalOpen(!modalOpen);
                   }} */}
               <div className="button-right-alignment">
-                <button> Jetzt kostenfreie Beratung anfordern</button>
+                <button onClick={() => {
+                    setModalOpen(!modalOpen);
+                  }}> Jetzt kostenfreie Beratung anfordern</button>
               </div>
             </div>
           </div>
