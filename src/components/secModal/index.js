@@ -1,5 +1,5 @@
 import "./secModal.scss";
-import ModalLogo from "../../assets/logo/modal-logo.svg";
+import ModalLogo from "../../assets/images/modal-logo.svg";
 import CloeIcon from "../../assets/icons/ei_close.svg";
 import React, { useEffect, useState, useCallback } from "react";
 
@@ -26,7 +26,7 @@ export default function SecModal(props) {
                 <div className="text-style-new">
                     <p>Vielen Dank für Deine Bewerbung </p>
                     <span>Wir melden uns binnen 48h bei Dir</span>
-                    <h6>Dein Team von FE Finance</h6>
+                    <h6>Dein Team von Siluna</h6>
                 </div>
             </div>
          </div>

@@ -26,7 +26,7 @@ export default function Footer() {
           </h1>
           <div className="button-center-alignment">
             {/* onClick={() => setModalOpen(!modalOpen)} */}
-            <button>
+            <button onClick={() => setModalOpen(!modalOpen)}>
               Gratis Beratung
               <br />
               <span className="an-align">anfordern</span>

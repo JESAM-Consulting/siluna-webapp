@@ -22,7 +22,7 @@ export default function ClientSection() {
                 Prof. Dr. Hans J. Bocker - <span>Finanzexperte</span>
               </p>
               <div className="mobile-button-center-alignment">
-                <button>Jetzt bewerben</button>
+                <button onClick={() => setModalOpen(!modalOpen)}>Jetzt bewerben</button>
                 {/* onClick={() => setModalOpen(!modalOpen)} */}
               </div>
             </div>

@@ -3,7 +3,7 @@
 // const host = "192.168.29.89:5013/api/v1/";
 
 const protocol = "https";
-const host = "api.fe-finance.rejoicehub.com/api/v1";
+const host = "api.siluna.rejoicehub.com/api/v1";
 
 // const host = "api.blockcreator.rejoicehub.com/api/v1";
 

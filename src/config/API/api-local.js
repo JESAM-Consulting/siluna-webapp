@@ -5,7 +5,7 @@
   // live
 
 const protocol = "https";
-const host = "api.fe-finance.rejoicehub.com/api/v1";
+const host = "api.siluna.rejoicehub.com/api/v1";
 
 // const host = "api.blockcreator.rejoicehub.com/api/v1";
 

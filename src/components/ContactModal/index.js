@@ -76,7 +76,7 @@ export default function ContactModal(props) {
   const submitContact = (e) => {
     e.preventDefault();
     if (validateforUserData()) {
-      ApiPost(`applyNow/create`, inputValue)
+      ApiPost(`contact/create-contact`, inputValue)
         .then((res) => {
           console.log("success res", res);
           setInputValue({});
@@ -197,7 +197,7 @@ export default function ContactModal(props) {
                 </div>
                 <div className="ab-button">
                   <button
-                  //  onClick={(e) => submitContact(e)}
+                   onClick={(e) => submitContact(e)}
                    >Absenden</button>
                 </div>
                 {/* <form>
