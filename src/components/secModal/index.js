@@ -24,9 +24,9 @@ export default function SecModal(props) {
             </div>
             <div className="modal-body">
                 <div className="text-style-new">
-                    <p>Vielen Dank für Deine Bewerbung </p>
-                    <span>Wir melden uns binnen 48h bei Dir</span>
-                    <h6>Dein Team von Siluna</h6>
+                    <p>Vielen Dank für Ihre Anfrage </p>
+                    <span>Wir melden uns binnen 48h bei Ihnen</span>
+                    <h6> Ihr Team von Siluna</h6>
                 </div>
             </div>
          </div>
