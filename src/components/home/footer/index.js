@@ -102,6 +102,7 @@ export default function Footer() {
                   <h4>Jetzt kostenfreie Beratung anfordern!</h4>
                   <div
                     className="footer-last-child-text-alignmetn"
+                    onClick={() => setModalOpen(true)}
                     // onClick={() => setModalOpen(true)}
                   >
                     <div>

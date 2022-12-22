@@ -228,6 +228,10 @@
                 cursor: pointer;
                 gap: 4px;
 
+                @include breakpoint("max-sm") {
+                    justify-content: space-between;
+                }
+
                 div {
                     display: flex;
                     align-items: center;
@@ -247,7 +251,7 @@
                             font-weight: 700;
                             font-size: 11px;
                             line-height: 15px;
-                            width: auto;
+                            max-width: 100px;
                         }
 
                     }
